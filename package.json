@@ -1,0 +1,28 @@
+{
+  "name": "tictactoe-api-design-exercise",
+  "version": "0.0.0",
+  "description": "API Design Exercise with Ultimate Tic-Tac-Toe",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjvalencik/tictactoe-api-design-exercise.git"
+  },
+  "author": "K.J. Valencik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjvalencik/tictactoe-api-design-exercise/issues"
+  },
+  "homepage": "https://github.com/kjvalencik/tictactoe-api-design-exercise#readme",
+  "scripts": {
+    "check": "npm run tsc -- --noemit",
+    "doc": "npm run typedoc",
+    "prettier": "prettier --write src/**/*.ts *.md",
+    "typedoc": "typedoc",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typedoc": "^0.23.21",
+    "typescript": "^4.9.3"
+  }
+}
